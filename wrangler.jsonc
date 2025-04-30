@@ -9,5 +9,10 @@
   "keep_vars": true,
   "dev": {
     "port": 3000
+  },
+  "vars": {
+    "DATABASE_URL":"postgres://neondb_owner:npg_jC8PoXha1sDI@ep-gentle-pond-a1c8wy38-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require",
+    "BETTER_AUTH_SECRET":"gQ9wEr3TEL2WskUDeZUtsYITYjjiNfEa",
+    "BETTER_AUTH_URL":"https://ai-api.nosion.ac.cn",
   }
 }

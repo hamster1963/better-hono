@@ -9,12 +9,12 @@ export const createAuth = (env: Environment) => {
     database: drizzleAdapter(db, {
       provider: "pg"
     }),
-    trustedOrigins: ["*"],
+    trustedOrigins: ["https://localhost:4001","https://ai-api.nosion.ac.cn","https://192.168.2.118:4001","https://ai.buycoffee.top"],
     plugins: [],
     advanced: {
       crossSubDomainCookies: {
         enabled: true
-      }
+      },
     },
     emailAndPassword: {
       enabled: true,
